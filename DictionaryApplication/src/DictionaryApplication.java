@@ -56,7 +56,7 @@ public class DictionaryApplication extends Application implements Initializable{
 		bouncyRectangle.relocate(0, 0);
 		Timeline timeline = new Timeline(new KeyFrame(Duration.millis(200), new EventHandler<ActionEvent>() {
 			double dx = 20;
-			double dy = 20;
+			double dy = 20;              
 
 			@Override
 			public void handle(ActionEvent t) {
